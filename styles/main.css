@@ -4739,9 +4739,9 @@ img {
     }
 
     .logo {
-        position: relative;
+        /* position: relative;
         top: 0;
-        right: 23%;
+        right: 23%; */
         width: 170px;
         height: 46px
     }
