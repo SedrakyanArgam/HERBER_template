@@ -4689,7 +4689,7 @@ img {
     }
 }
 
-@media (min-width:360px) and (max-width:576px) {
+@media (max-width:576px) {
 
     .approachImg,
     .statisticCont,
@@ -5244,7 +5244,6 @@ img {
 
     .bottomCont {
         max-width: 540px;
-        padding: 0 15px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -5289,6 +5288,7 @@ img {
     }
 
     .li-items {
+        max-width: 320px;
         flex-wrap: nowrap;
         align-items: center
     }
