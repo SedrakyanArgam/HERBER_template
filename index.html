@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/main.css" />
+  <title>Herber</title>
+</head>
+
+<body>
+  <header class="headerPage">
+    <div class="headerNavbar">
+      <nav>
+        <li class="navMenu">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+        <a href="./index.html" class="logo">
+          <img src="./images/logo-default-196x47.png" alt="" srcset="">
+        </a>
+        <div class="navUl">
+          <ul>
+            <li>
+              <a href="./index.html">HOME</a>
+            </li>
+            <li>
+              <a href="./about.html">ABOUT US</a>
+            </li>
+            <li>
+              <a href="./typography.html">TYPOGRAPHY</a>
+            </li>
+            <li>
+              <a href="./contact.html">CONTACT US</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+
+            <li id="burgerBarBig">
+              <i class="fa-solid fa-bars"></i>
+            </li>
+          </ul>
+          <li id="burgerBar">
+            <i class="fa-solid fa-bars"></i>
+          </li>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+  <div id="burgerMenu">
+    <div class="burgerHead">
+      <h4>Get in Touch</h4>
+      <i class="fa-solid fa-xmark" id="closeBurger"></i>
+    </div>
+    <p>We are always ready to provide you with fresh organic products for your home or office. Contact us to find
+      out how we can help you.</p>
+    <p>We are always ready to provide you with fresh organic products for your home or office. Contact us to find
+      out how we can help you.</p>
+  </div>
+
+
+  <div id="navMenuBurger">
+    <div class="closeMenuBurger">
+      <i class="fa-solid fa-arrow-left"></i>
+    </div>
+    <div class="NavMenuShop">
+      <a href="#">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+    </div>
+    <div class="navMenuInp">
+      <input type="text" placeholder="Search">
+      <button type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./about.html">About Us</a>
+      </li>
+      <li>
+        <a href="./typography.html">Typography</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+
+
+
+  <section class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="sliderTxt">
+          <h1>Organic Food</h1>
+          <p>Herber provides local citizens and guests of our town with quality organic fruits, vegetables, and
+            other
+            products.</p>
+          <div class="buttonSlide">
+            <button>READ MORE</button>
+          </div>
+        </div>
+        <img src="./images/backgrounds/slider-1.jpg" alt="" srcset="">
+      </div>
+      <div class="swiper-slide">
+        <div class="sliderTxt">
+          <h1>Quality Control</h1>
+          <p>We control the process of farming at Herber to deliver the best organic products to our customers
+            throughout the state.</p>
+          <div class="buttonSlide">
+            <button>READ MORE</button>
+          </div>
+        </div>
+        <img src="./images/backgrounds/slider-2.jpg" alt="" srcset="">
+      </div>
+      <div class="swiper-slide">
+        <div class="sliderTxt">
+          <h1>Eco-Friendly</h1>
+          <p>As the leading organic farm, we maintain an eco-friendly policy of growing and selling healthy food without
+            any additives.</p>
+          <div class="buttonSlide">
+            <button>READ MORE</button>
+          </div>
+        </div>
+        <img src="./images/backgrounds/slider-3.jpg" alt="" srcset="">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </section>
+
+
+  <section class="propertyCont">
+    <div class="cubeBox">
+      <div class="propertyBox">
+        <i class="fa-solid fa-leaf"></i>
+        <p>
+          Natural & Organic
+        </p>
+      </div>
+      <div class="propertyBox">
+        <i class="fa-solid fa-trowel"></i>
+        <p>
+          Best Equipment
+        </p>
+      </div>
+      <div class="propertyBox propertyBox_768">
+        <i class="fa-solid fa-sun"></i>
+        <p>
+          Dedicated Team
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="productsCont" id="topBtn">
+    <div class="productsMain">
+
+      <div class="productLeft">
+        <img src="./images/home-banner-1-570x715.jpg" alt="" srcset="">
+      </div>
+      <div class="productsRight">
+        <div class="productCards">
+          <img src="./images/product-5-270x280.png" alt="" srcset="">
+          <div class="productTxt">
+            <h5>Avocado</h5>
+            <p class="productPrice">$28.00</p>
+            <button class="addCardBtn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="productCards">
+          <img src="./images/product-6-270x280.png" alt="" srcset="">
+          <div class="productTxt">
+            <h5>Corn</h5>
+            <p class="productPrice">$27.00</p>
+            <button class="addCardBtn">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="productCards">
+          <img src="./images/product-7-270x280.png" alt="" srcset="">
+          <div class="productTxt">
+            <h5>Artichokes</h5>
+            <p class="productPrice">$23.00</p>
+            <button class="addCardBtn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="productCards">
+          <img src="./images/product-8-270x280.png" alt="" srcset="">
+          <div class="productTxt">
+            <h5>Broccoli</h5>
+            <p class="productPrice">$25.00</p>
+            <button class="addCardBtn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="approachCont">
+    <div class="approachImg">
+      <div class="approachTxt">
+
+        <h4>Our Approach</h4>
+        <p>Our farm strictly combines the traditions of organic farming with the latest innovations to make our products
+          healthy and safe for the clients</p>
+        <button>View presentation</button>
+      </div>
+    </div>
+  </section>
+  <section class="teamCont">
+    <div class="ourTeamCont">
+      <h2>Our Team</h2>
+      <div class="workersCont">
+        <div class="workers">
+          <img src="./images/team-1-370x406.jpg" alt="" srcset="">
+          <div class="workerName">
+            <h5>Ryan Wilson</h5>
+            <p>Founder</p>
+          </div>
+        </div>
+        <div class="workers">
+          <img src="./images/team-2-370x406.jpg" alt="" srcset="">
+          <div class="workerName">
+            <h5>Jill Peterson</h5>
+            <p>Garden Manager</p>
+          </div>
+        </div>
+        <div class="workers">
+          <img src="./images/team-3-370x406.jpg" alt="" srcset="">
+          <div class="workerName">
+            <h5>Sam Robinson</h5>
+            <p>Farmyard Coordinator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="statisticCont" id="statistica">
+    <div class="statisticImg">
+      <div class="statisticTxt">
+        <div class="statistic">
+          <div class="elements">
+            <div class="h6Icons">
+              <h6 id="stat1"></h6>
+              <i class="fa-solid fa-trophy" style="color: #eda407;"></i>
+            </div>
+            <p>Awards</p>
+          </div>
+          <div class="elements">
+
+            <div class="h6Icons">
+              <h6 id="stat2"></h6>
+              <i class="fa-solid fa-house" style="color: #eda407;"></i>
+            </div>
+            <p>Products</p>
+          </div>
+          <div class="elements">
+
+            <div class="h6Icons">
+              <h6 id="stat3"></h6>
+              <i class="fa-solid fa-sun" style="color: #eda407;"></i>
+            </div>
+            <p>Happy Clients</p>
+          </div>
+          <div class="elements">
+
+            <div class="h6Icons">
+              <h6 id="stat4"></h6>
+              <i class="fa-solid fa-user-check" style="color: #eda407;"></i>
+            </div>
+            <p>Farmers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="galleryCont">
+    <div class="ourGalleryCont">
+      <h2>Our Gallery</h2>
+      <div class="galleryCont" id="marginImg">
+        <div class="gallery" id="imageMarginX">
+          <img src="./images/grid-gallery-1-370x303.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery">
+          <img src="./images/grid-gallery-2-370x303.jpg" alt="" srcset="">
+
+        </div>
+        <div class="gallery" id="imageMarginX_2">
+          <img src="./images/grid-gallery-3-370x303.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery" id="imageMarginY">
+          <img src="./images/grid-gallery-4-370x303.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery" id="imageMarginY_4">
+          <img src="./images/grid-gallery-5-370x303.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery" id="imageMarginY_2">
+          <img src="./images/grid-gallery-6-370x303.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footerTopSector">
+      <div class="bottomCont">
+        <div class="bottomSectorLeft">
+          <h5>
+            <a href="#">
+              <img src="./images/logo-inverse-196x42.png" alt="">
+            </a>
+          </h5>
+          <p>Herber is an organic farm located in California. We offer healthy foods and products to
+            our clients.</p>
+          <ul>
+            <li>
+              <div class="li-items">
+                <i class="fa-solid fa-phone"></i>
+                <a href="#" class="link-phone">+1 323-913-4688</a>
+              </div>
+            </li>
+            <li>
+              <div class="li-items">
+                <i class="fa-solid fa-clock"></i>
+                <p class="working-times">
+                  Mon-Sat: 07:00AM - 05:00PM</p>
+              </div>
+            </li>
+            <li>
+              <div class="li-items">
+                <i class="fa-solid fa-location-arrow"></i>
+                <a href="#" class="link-location">
+                  4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottomSectorCenter">
+          <h5>Newsletter</h5>
+          <p>Join our email newsletter for news and tips.</p>
+          <form>
+            <input type="email" placeholder="Enter Your E-mail" required>
+          </form>
+          <button>SUBSCRIBE</button>
+          <div class="socialSites">
+            <p>Follow Us</p>
+            <div class="socialIcons">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottomSectorRight">
+          <h5>Gallery</h5>
+          <div class="bottomRightImages">
+            <div class="galleryImg">
+              <img class="thisImg" src="./images/gallery-image-1-129x120.jpg" alt="">
+            </div>
+            <div class="galleryImg">
+              <img class="thisImg" src="./images/gallery-image-2-129x120.jpg" alt="">
+            </div>
+            <div class="galleryImg">
+              <img class="thisImg" src="./images/gallery-image-3-129x120.jpg" alt="">
+            </div>
+            <div class="galleryImg">
+              <img class="thisImg" src="./images/gallery-image-4-129x120.jpg" alt="">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footerBottomSector">
+      <p>© 2023 Herber. All rights reserved</p>
+      <p>Design by
+        <a href="#">Templatemonster</a>
+      </p>
+    </div>
+
+  </footer>
+
+
+
+  <!-- !!!!!!!!!!!!!!!!!! -->
+  <div class="blackBg">
+    <div id="closeBlackBg">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <div class="blackBgThisImg">
+      <img src="" alt="" id="blackBgImg">
+
+      <div class="imagesGallery">
+
+        <div class="galleryImg galleryImgMrg">
+          <img class="thisImg" src="./images/gallery-image-1-129x120.jpg" alt="">
+        </div>
+        <div class="galleryImg galleryImgMrg">
+          <img class="thisImg" src="./images/gallery-image-2-129x120.jpg" alt="">
+        </div>
+        <div class="galleryImg galleryImgMrg">
+          <img class="thisImg" src="./images/gallery-image-3-129x120.jpg" alt="">
+        </div>
+        <div class="galleryImg galleryImgMrg">
+          <img class="thisImg" src="./images/gallery-image-4-129x120.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="topPageBtn" id="topArrow">
+    <a href="#">
+      <button>
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </a>
+  </div>
+  <!-- !!!!!!!!!!!!!!!!!!! -->
+
+
+
+  <script src="scripts/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    let swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
