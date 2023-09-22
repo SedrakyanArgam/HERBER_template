@@ -4689,7 +4689,7 @@ img {
     }
 }
 
-@media (max-width:576px) {
+@media (min-width:360px) and (max-width:576px) {
 
     .approachImg,
     .statisticCont,
@@ -4918,7 +4918,7 @@ img {
     }
 
     .productsMain {
-        width: 540px;
+        max-width: 540px;
         display: flex;
         padding: 0 20px;
         flex-direction: column;
@@ -5060,7 +5060,7 @@ img {
     }
 
     .ourTeamCont {
-        width: 540px;
+        max-width: 540px;
         text-align: center;
         padding: 0 15px
     }
@@ -5171,7 +5171,7 @@ img {
     }
 
     .statistic {
-        width: 540px;
+        max-width: 540px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -5243,7 +5243,7 @@ img {
     }
 
     .bottomCont {
-        width: 540px;
+        max-width: 540px;
         padding: 0 15px;
         display: flex;
         flex-direction: column;
