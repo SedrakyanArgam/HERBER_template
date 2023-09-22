@@ -117,7 +117,7 @@ img {
 #burgerMenu {
     padding: 40px 20px 10px;
     transform: translateX(105%);
-    width: 350px;
+    max-width: 350px;
     z-index: 999;
     right: 0;
     background: #fff;
@@ -153,14 +153,15 @@ img {
 .navMenuInp button {
     border: none;
     font-size: 24px;
-    cursor: pointer
+    cursor: pointer;
+    color: #151515;
 }
 
 #navMenuBurger {
     transform: translateX(-105%);
     left: 0;
     z-index: 101;
-    width: 300px;
+    max-width: 300px;
     background: #fff;
     border: 1px solid #d7d7d7;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1)
@@ -5252,7 +5253,6 @@ img {
 
     .bottomSectorLeft {
         width: 100%;
-        padding: 0 15px;
         color: #ffffff4d
     }
 
@@ -5288,7 +5288,7 @@ img {
     }
 
     .li-items {
-        max-width: 320px;
+        max-width: 300px;
         flex-wrap: nowrap;
         align-items: center
     }
@@ -5319,7 +5319,6 @@ img {
 
     .bottomSectorCenter {
         width: 100%;
-        padding: 0 15px;
         text-align: center
     }
 
