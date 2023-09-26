@@ -269,7 +269,12 @@ img {
 .whyError span {
     font-weight: 600
 }
-
+.p-span{
+    color: #0095ff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
 @media (min-width:1200px) {
 
     .approachImg,
